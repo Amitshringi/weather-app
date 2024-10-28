@@ -1,0 +1,43 @@
+.weather-dashboard {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .weather-dashboard h2 {
+    font-size: 2rem;
+    color: #0073e6;
+    margin-bottom: 20px;
+  }
+  
+  .cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .city-card {
+    background: #f0f8ff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .city-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .city-card img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .city-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  

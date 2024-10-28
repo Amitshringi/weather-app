@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Glassmorphism Effect */
+.glassCard {
+  background: rgba(225, 225, 225, 0.2);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #f1f1f1;
+  transition: transform 0.2s;
+}
+
+/* Card Hover Effect */
+.glassCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 36px rgba(31, 38, 135, 0.4);
+}
+
+/* Typography */
+.text-5xl {
+  color: #ffffff;
+}
+
+.font-bold {
+  color: #ffffff;
+}
+
+.bg-blue-600,
+.bg-green-600 {
+  background-color: rgba(0, 123, 255, 0.8); /* Glassy blue background */
+}
+
+/* Weather Icon Styling */
+.weather-icon {
+  width: 80px;
+  height: 80px;
+}
+
+/* Card Header */
+.header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  gap: 1.5rem;
+}
+
+/* Place and Date */
+.place-date-section {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+/* Temperature Display */
+.temperature-display {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Details Section */
+.details-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Info Box Styling */
+.info-box {
+  background-color: rgba(31, 38, 135, 0.5); /* Glassy info box */
+  padding: 0.75rem;
+  border-radius: 10px;
+  margin: 0.5rem;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+/* Divider Styling */
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 1rem 0;
+}
